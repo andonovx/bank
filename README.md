@@ -6,7 +6,7 @@
 
 ./migrations contains the migration script
 
-./truffle-config.js represents truffle's confiruation file
+./truffle-config.js represents truffle's configuration file
 
 ./.secret file contains the seed phrase of the wallet the truffle is going to use
 
