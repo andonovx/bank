@@ -15,9 +15,13 @@
 ### PREREQUISITES
 
 In order to compile the contracts using truffle, you must install Node.js, npm and Truffle.
+
 Run npm install in order to install all the dependencies.
+
 In order to run the tests locally you must install the Ganache or some other server that will set up a blockchain locally.
+
 If you wish to deploy the contracts, paste your wallet seed phrase into './.secret' file. Be sure to have some ETH inside that wallet.
+
 In order to run the frontend, you must have an http server installed, eg: Live Server extension for Visual Studio OR Python.
 
 Details of wallets that posses ATRAC Rinkeby tokens, and thus can be used for testing the contracts are the following:
@@ -41,11 +45,13 @@ In case you wish to redeploy the contract in order to change the deferral period
 ### COMPILING 
 
 In order to compile the contracts, run the following command:
+
 truffle compile
 
 ### RUNNING TESTS
 
 In order to run the tests locally, run the following command:
+
 truffle test
 
 In the tests, the deferral (t) is set to 30 seconds.
@@ -53,12 +59,15 @@ In the tests, the deferral (t) is set to 30 seconds.
 ### DEPLOYING
 
 In order to deploy the contracts to the Rinkeby testnet, run the following command:
+
 truffle migrate --network rinkeby
 
 ### USING THE DAPP 
 
 In order to use the app, first put the contents of ./frontend on an http server.
+
 Route of the /.frontend contents on the server should default to the index.html page.
+
 
 In order to interact with the contracts (trigger transactions) you must connect your wallet, by clicking the connect button in the upper-right corner. MetaMask and WalletConnect-compatible wallets are supported. I provided my Infura endpoint so the dapp is able to read data from the contract even when no wallet is connected.
 
