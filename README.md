@@ -26,17 +26,17 @@ In order to run the frontend, you must have an http server installed, eg: Live S
 
 Details of wallets that posses ATRAC Rinkeby tokens, and thus can be used for testing the contracts are the following:
 
-#ADDRESS                                         ROLE                PRIVATE KEY                   
-#0x3d7A1592588212F949B4Aa9a2CFF44566143D0f4      ADMIN               fc37d758907b62f0d84329e87f1a237a3bd5168001ba284a9b340508cf4291d8
-#0x4CD8d1349B2bA7E941672FB7993a97940Eb59593      USER                3aaaccf19776699a11502fa972f517909f63fcc7df82362cf6651aa0583cc94e
-#0xB2BA3B8a08054F5c1525De7814ec7Ac78A3d0b81      USER                0b1d1b67eb98c9369c2667c34eb9bdfa67ff0627129855c2281414d5b54245c9
+# ADDRESS                                         ROLE                PRIVATE KEY                   
+# 0x3d7A1592588212F949B4Aa9a2CFF44566143D0f4      ADMIN               fc37d758907b62f0d84329e87f1a237a3bd5168001ba284a9b340508cf4291d8
+# 0x4CD8d1349B2bA7E941672FB7993a97940Eb59593      USER                3aaaccf19776699a11502fa972f517909f63fcc7df82362cf6651aa0583cc94e
+# 0xB2BA3B8a08054F5c1525De7814ec7Ac78A3d0b81      USER                0b1d1b67eb98c9369c2667c34eb9bdfa67ff0627129855c2281414d5b54245c9
 
 ### CONTRACTS
 Contracts are deployed to Rinkeby testnet and verified on Etherscan.
 
-#CONTRACT NAME           ADDRESS                                         ETHERSCAN LINK
-#BANK                    0x99Eb7a657382fF7050044B840Ec3e64d03040eB4      https://rinkeby.etherscan.io/address/0x99Eb7a657382fF7050044B840Ec3e64d03040eB4#code
-#ATRAC                   0x674c2f75414111997442F3e246ce32Ea9d978f80      https://rinkeby.etherscan.io/address/0x674c2f75414111997442F3e246ce32Ea9d978f80#code
+# CONTRACT NAME           ADDRESS                                         ETHERSCAN LINK
+# BANK                    0x99Eb7a657382fF7050044B840Ec3e64d03040eB4      https://rinkeby.etherscan.io/address/0x99Eb7a657382fF7050044B840Ec3e64d03040eB4#code
+# ATRAC                   0x674c2f75414111997442F3e246ce32Ea9d978f80      https://rinkeby.etherscan.io/address/0x674c2f75414111997442F3e246ce32Ea9d978f80#code
 
 The deferral period (or T as defined in the task's description) of the Bank contract is set to 24 hours. 
 
