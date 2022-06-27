@@ -1,11 +1,11 @@
 ### CONTENT OF THE REPOSITORY
 
-./contracts contains the code of the contracts
-./tests contains the tests
-./migrations contains the migration script
-./truffle-config.js represents truffle's confiruation file
-./.secret file contains the seed phrase of the wallet the truffle is going to use
-./frontend contains the code for the dapp which can be used to interact with the smart contract
+#./contracts contains the code of the contracts
+#./tests contains the tests
+#./migrations contains the migration script
+#./truffle-config.js represents truffle's confiruation file
+#./.secret file contains the seed phrase of the wallet the truffle is going to use
+#./frontend contains the code for the dapp which can be used to interact with the smart contract
 
 ### PREREQUISITES
 
