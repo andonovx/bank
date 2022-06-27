@@ -1,0 +1,68 @@
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.table-overview
+{
+  position:relative; 
+  top:8vh;
+}
+
+.section-collection
+{
+  display:none;
+  position:relative; 
+  top:5vh;
+}
+
+.dn
+{
+  display:none;
+}
+
+.h6c
+{
+  vertical-align:middle;
+  text-align: center; 
+}
+
+.th-tr
+{
+  text-align: center; 
+  vertical-align: middle;
+}
+
+.gray
+{
+  color:gray;
+}
+.collection-table
+{
+  position:relative; top:10vh;
+}
+
+.section-deposit, .section-wadmin, .section-withdraw, .section-pool
+{
+  display:none;
+}
+
+th {
+  text-align: center !important; 
+  vertical-align: middle !important;
+  color:gray;
+}
+
+.table-responsive {
+  padding-top: 5vh;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
